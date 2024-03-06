@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 
 export default function Home() {
   const text = "Click Me";
+
+  console.log(text);
   return (
     <div>
       <Button>

@@ -9,6 +9,7 @@ type ButtonProps = {
 export default function Button({ children }: ButtonProps) {
   const [count, setCount] = useState(0);
 
+  console.log(count);
   const handleClick = () => {
     setCount((prev) => prev + 1);
   };
